@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Mulish , sans-serif";
+  font-family: "Mulish, sans-serif";
   color: #333333;
 }
 
@@ -356,11 +356,11 @@ template {
   display: none;
 }
 
-.header {
+.navbar {
   background-color: #fff;
 }
 
-.header-top {
+.navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,7 +374,7 @@ template {
   padding-bottom: 40px;
 }
 
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
@@ -398,6 +398,7 @@ template {
   border: none;
   font-size: 12px;
   line-height: 15px;
+  font-family: "Mulish";
   color: #333333;
 }
 
@@ -430,6 +431,7 @@ template {
 }
 
 .user__name {
+  font-family: "Mulish";
   margin-left: 18px;
   font-size: 14px;
   line-height: 18px;
