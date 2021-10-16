@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,aAAa;CAcO;;AAb5B,AAAD,eAAQ,CAAC;EACP,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,cAAc,EAAE,SAAS;CAAG;;AAE3B,AAAD,qBAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,IAAI;EACtB,aAAa,EAAE,GAAG;CAAG",
+    "sources": [
+        "../sass/blocks/reviews.sass"
+    ],
+    "names": [],
+    "file": "reviews.css"
+}
