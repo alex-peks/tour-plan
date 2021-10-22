@@ -1451,6 +1451,9 @@ template {
   body {
     padding-top: 78px;
   }
+  .search__input {
+    max-width: 245px;
+  }
   .navbar_mobile_fixed {
     position: fixed;
     top: 0;
@@ -1498,6 +1501,9 @@ template {
   }
   .navbar-menu__item_mobile_visible {
     display: block;
+  }
+  .hidden {
+    overflow-y: hidden;
   }
   .menu-button {
     display: -webkit-box;

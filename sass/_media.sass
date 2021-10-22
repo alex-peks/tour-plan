@@ -94,6 +94,9 @@
     width: 92%
   body
     padding-top: 78px
+  .search
+    &__input
+      max-width: 245px
   .navbar
     &_mobile
       &_fixed
@@ -128,6 +131,8 @@
         &_mobile
           &_visible
             display: block
+  .hidden
+    overflow-y: hidden
   .menu
     &-button
       display: flex
@@ -215,6 +220,7 @@
   .footer
     &__input
       flex-basis: 100%
+
 @media  ( max-width: 576px)
   .container
     max-width: 480px
