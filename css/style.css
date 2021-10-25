@@ -1312,10 +1312,22 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 95px;
   grid-colomn: 4;
+}
+
+.footer__cancellatios_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer__cancellatios_icon {
+  margin-left: 277px;
 }
 
 @media (max-width: 1200px) {
@@ -1450,6 +1462,17 @@ template {
     grid-column: span 5;
     -ms-grid-row: 4;
     grid-row: 4;
+  }
+  .footer__cancellatios {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer__cancellatios_icon {
+    margin-left: auto;
   }
 }
 
@@ -1746,6 +1769,24 @@ template {
   .footer__info {
     margin-bottom: 15px;
   }
+  .footer__cancellatios {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  .footer__cancellatios_text {
+    margin-bottom: 10px;
+  }
+  .footer__cancellatios_icon {
+    margin: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1777,6 +1818,17 @@ template {
     margin-bottom: 42px;
     font-size: 18px;
     line-height: 23px;
+  }
+  .footer__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 /*# sourceMappingURL=style.css.map */
