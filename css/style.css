@@ -1308,6 +1308,16 @@ template {
   color: #E0E0E0;
 }
 
+.footer__cancellatios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-colomn: 4;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1703,6 +1713,12 @@ template {
     -ms-grid-column: 1;
     grid-column: 1;
   }
+  .footer__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .footer__contact-details {
     -ms-grid-row: 6;
     grid-row: 6;
@@ -1717,6 +1733,18 @@ template {
   }
   .footer__message {
     width: 100%;
+  }
+  .footer__input {
+    width: 100%;
+    padding: 18px 0 17px 23px;
+  }
+  .footer__button {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer__info {
+    margin-bottom: 15px;
   }
 }
 
