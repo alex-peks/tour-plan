@@ -8,23 +8,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Nunito:wght@400;600;700;800&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">  
 </head>
 <body>
   <header class="navbar navbar_mobile_fixed">
     <div class="container">
       <div class="navbar-top">
-        <a href="#" class="logo">
+        <a href="#" class="logo" data-aos="fade-right" data-aos-delay="100">
           <img src="img/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
-        <form action="#" class="search navbar__search navbar__search_mobile_hidden">
+        <form action="#" class="search navbar__search navbar__search_mobile_hidden" data-aos="fade-right" data-aos-delay="200">
           <input type="text" class="search__input" placeholder="Search Location">
           <button class="search__button">
             <img src="img/search.svg" alt="icon: search">
           </button>
         </form>
 
-        <a href="#" class="user navbar__user navbar__user_mobile_hidden">
+        <a href="#" class="user navbar__user navbar__user_mobile_hidden" data-aos="fade-right" data-aos-delay="300">
           <img src="img/user-avatar.JPG" alt="avatar: Nathan" class="user__avatar">
           <span class="user__name">Nathan</span>
         </a>
@@ -183,11 +184,13 @@
   <!-- /.hotel -->
   <section class="newslatter">
     <div class="newslatter-wrapper">
-      <h2 class="newslatter-title newslatter__title">
+      <h2 class="newslatter-title newslatter__title" data-aos="fade-up"
+     data-aos-duration="3000">
         subscribe to our
-        <span class="newslatter-title__strong">Newsletter</span>
+        <span class="newslatter-title__strong" >Newsletter</span>
       </h2>
-      <form action="send.php" method="post" class="subscribe newslatter__subscribe form">
+      <form action="send.php" method="post" class="subscribe newslatter__subscribe form" data-aos="fade-up"
+     data-aos-duration="3000">
         <input type="email" class="subscribe__input" placeholder="Your email address" name="newslatter-email" required>
         <button name="send-newslatter" class="subscribe__button">
           Send
@@ -301,7 +304,7 @@
     <div class="container">
       <h2 class="activities__title">Other Activities</h2>
         <div class="activities-wrapper">
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-right" data-aos-delay="100">
             <img src="img/activity-1.jpg" alt="The curious corner
             of chamarel" class="card__image">
             <h3 class="card__title">The curious corner
@@ -311,7 +314,7 @@
             <!-- /.card_buton -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-right" data-aos-delay="300">
             <img src="img/activity-2.jpg" alt="Gymkhana club golf
             course" class="card__image">
             <h3 class="card__title">Gymkhana club golf
@@ -321,7 +324,7 @@
             <!-- /.card_buton -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-left" data-aos-delay="500">
             <img src="img/activity-3.jpg" alt="Tamarind falls hiking
             trip - full day" class="card__image">
             <h3 class="card__title">Tamarind falls hiking
@@ -332,7 +335,7 @@
             <!-- /.card_buton -->
           </div>
           <!-- /.card -->
-          <div class="card activities__card">
+          <div class="card activities__card" data-aos="fade-left" data-aos-delay="700">
             <img src="img/activity-4.jpg" alt="he blue marine discovery
             quest" class="card__image">
             <h3 class="card__title">The blue marine discovery
@@ -482,6 +485,7 @@
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
   <script src="js/jquery.maskedinput.min.js"></script>
+  <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
