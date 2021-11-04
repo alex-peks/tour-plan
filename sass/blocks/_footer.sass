@@ -66,8 +66,10 @@
     text-decoration: none
     color: inherit
   &__input
-    margin-bottom: 15px
-    flex-basis: 48%
+    width: 100%
+    &-group
+      margin-bottom: 15px
+      flex-basis: 48%
   &__message
     flex-basis: 100%
     margin-bottom: 23px
@@ -89,3 +91,8 @@
       line-height: 15px
     &_icon
       margin-left: 277px
+  &__form
+    display: flex
+    align-items: center
+    justify-content: space-between
+    flex-wrap: wrap
